@@ -1,0 +1,17 @@
+{
+  "ts-node": {
+    "transpileOnly": false
+  },
+  "compilerOptions": {
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "strict": false,
+    "importHelpers": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "downlevelIteration": true
+  },
+  "exclude": ["../node_modules", "../src" ]
+}
